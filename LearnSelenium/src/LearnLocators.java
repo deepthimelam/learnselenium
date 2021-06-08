@@ -17,6 +17,7 @@ WebElement username = driver.findElement(By.id("login-username"));
 username.sendKeys("testnaveen@yahoo.com");
 WebElement nextButton = driver.findElement(By.id("login-signin"));
 nextButton.click();
+System.out.println("Test");
 	}
 
 }
